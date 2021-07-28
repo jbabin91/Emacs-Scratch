@@ -1,0 +1,20 @@
+
+;; ----- smex-history -----
+(
+ kill-buffer
+ eval-buffer
+ counsel-switch-buffer
+ which-key-mode
+ package-install
+ cd
+ 5x5
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 7)
+ (eval-buffer . 10)
+ (which-key-mode . 2)
+ (counsel-switch-buffer . 1)
+ (kill-buffer . 2)
+)
