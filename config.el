@@ -10,9 +10,6 @@
 
 (menu-bar-mode -1)      ; Disable the menu bar
 
-;; Set up the visible bell
-;;(setq visible-bell t)
-
 (set-face-attribute 'default nil :font "JetBrainsMono Nerd Font" :height runemacs/default-font-size)
 
 ;; Make ESC quit prompts
@@ -178,8 +175,8 @@
   ("C-c p" . projectile-command-map)
   :init
   ;; NOTE: Set this to the folder where you keep you Git repos!
-  (when (file-directory-p "~/Code")
-    (setq projectile-project-search-path '("~/Code")))
+  (when (file-directory-p "~/code")
+    (setq projectile-project-search-path '("~/code")))
   (setq projectile-switch-project-action #'projectile-dired))
 
 (use-package counsel-projectile
