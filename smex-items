@@ -1,22 +1,47 @@
 
 ;; ----- smex-history -----
 (
- eval-buffer
- magit-diff
- magit
+ org-mode
+ org-babel-tangle
+ revert-buffer
+ auto-revert-mode
  kill-buffer
- counsel-switch-buffer
- which-key-mode
- package-install
+ org-agenda
+ org-set-property
 )
 
 ;; ----- smex-data -----
 (
  (package-install . 7)
- (eval-buffer . 11)
+ (eval-buffer . 23)
  (which-key-mode . 2)
  (counsel-switch-buffer . 1)
- (kill-buffer . 2)
+ (kill-buffer . 5)
  (magit . 2)
  (magit-diff . 1)
+ (magit-status . 2)
+ (org-version . 1)
+ (org-reset-checkbox-state-subtree . 1)
+ (org-mode . 12)
+ (org-todo . 1)
+ (org-agenda . 13)
+ (switch-to-buffer . 2)
+ (evil-switch-to-windows-last-buffer . 1)
+ (evil-buffer . 5)
+ (org-schedule . 2)
+ (org-deadline . 2)
+ (org-agenda-list . 4)
+ (kill-this-buffer . 1)
+ (org-time-stamp . 1)
+ (split-window-right . 1)
+ (counsel-org-tag . 3)
+ (org-set-tags-command . 1)
+ (org-set-effort . 2)
+ (org-set-property . 2)
+ (org-refile . 1)
+ (org-capture . 3)
+ (shell . 1)
+ (org-babel-tangle . 2)
+ (revert-buffer . 7)
+ (auto-revert-mode . 2)
 )
