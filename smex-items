@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ magit-status
  org-mode
  org-babel-tangle
  revert-buffer
  auto-revert-mode
  kill-buffer
  org-agenda
- org-set-property
 )
 
 ;; ----- smex-data -----
@@ -19,7 +19,7 @@
  (kill-buffer . 5)
  (magit . 2)
  (magit-diff . 1)
- (magit-status . 2)
+ (magit-status . 5)
  (org-version . 1)
  (org-reset-checkbox-state-subtree . 1)
  (org-mode . 12)

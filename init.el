@@ -16,7 +16,7 @@
 (unless package-archive-contents
   (package-refresh-contents))
 
-  ;; Initialize use-package on non-Linux platforms
+;; Initialize use-package on non-Linux platforms
 (unless (package-installed-p 'use-package)
   (package-install 'use-package))
 
@@ -365,6 +365,9 @@
 ;; - https://magit.vc/manual/forge/Token-Creation.html#Token-Creation
 ;; - https://magit.vc/manual/ghub/Getting-Started.html#Getting-Started
 (use-package forge)
+
+(use-package evil-nerd-commenter
+  :bind ("M-/" . evilnc-comment-or-uncomment-lines))
 
 (use-package rainbow-delimiters
   :hook (prog-mode . rainbow-delimiters-mode))
